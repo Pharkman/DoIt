@@ -1,0 +1,1 @@
+DoIt is a task management application designed to help users simplify their daily tasks and boost productivity. CommunityWave is a companion forum platform where users can connect, share ideas, and schedule events.
