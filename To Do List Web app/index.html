@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoIt</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://iconsax.gitlab.io/i/icons.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="side-bar">
+      <div class="menu-out" id="side-menu-btn">
+        <i class="iconsax" icon-name="hamburger-menu"></i>
+      </div>
+      <div class="side-menu active">
+        <i class="iconsax" icon-name="task-list-square"></i>
+        <p id="side-bar-text" class="side-bar-text">Tasks</p>
+      </div>
+      <div class="side-menu">
+        <i class="iconsax" icon-name="group"></i>
+        <p id="side-bar-text" class="side-bar-text">Community</p>
+      </div>
+      <div class="side-menu">
+        <i class="iconsax" icon-name="ranking-1"></i>
+        <p id="side-bar-text" class="side-bar-text">News</p>
+      </div>
+      <div class="side-menu">
+        <i class="iconsax" icon-name="message-dash-2"></i>
+        <p id="side-bar-text" class="side-bar-text">Message</p>
+      </div>
+      <div class="side-menu">
+        <i class="iconsax" icon-name="calendar-1"></i>
+        <p id="side-bar-text" class="side-bar-text">Calendar</p>
+      </div>
+      <div class="side-menu">
+        <i class="iconsax" icon-name="setting-1"></i>
+        <p id="side-bar-text" class="side-bar-text">Settings</p>
+      </div>
+      <div class="side-menu">
+        <i class="iconsax" icon-name="notif-text-square"></i>
+        <p id="side-bar-text" class="side-bar-text">Notification</p>
+      </div>
+      <div class="side-menu">
+        <i class="iconsax" icon-name="logout-1"></i>
+        <p id="side-bar-text" class="side-bar-text">Log Out</p>
+      </div>
+      
+    </div>
+
+    <div class="main-dashboard">
+      <div class="heading-profile">
+        <div class="search-bar">
+          <input type="search" placeholder="Search...">
+        </div>
+
+        <div class="icon-and-profile">
+          <div class="search-icon">
+            <i class="iconsax" icon-name="bell-2"></i>
+          </div>
+
+          <div class="profile-image">
+            <img src="images/profile2.jpg" alt="">
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="mytask-and-add-task">
+        <div class="my-task-heading-txt">
+          <h1>My Tasks</h1>
+        </div>
+
+        <div class="add-task-button-con">
+          <button id="add-task"><i class="iconsax" icon-name="add"></i>New Nask</button>
+        </div>
+        
+      </div>
+
+      <div class="tasks-and-schedule-container">
+        <div class="tasks-container" id="tasks-container">
+          
+        </div>
+
+        <div class="calander-container">
+          <div class="calander">
+            <div class="calendar-heading">
+              <div class="icon-and-text">
+                <div class="calendar-icon">
+                  <i class="iconsax" icon-name="calendar-1"></i>
+                </div>
+
+                <p>Calandar</p>
+              </div>
+              <div class="calendar-drop">
+                <i class="iconsax" icon-name="calendar-1"></i>
+                <button>July</button>
+                <i class="iconsax" icon-name="chevron-down"></i>
+              </div>
+            </div>
+
+            <div class="main-calendar">
+              <div class="days">
+                <div class="day">
+                  <p>S</p>
+                </div>
+                <div class="day">
+                  <p>M</p>
+                </div>
+                <div class="day">
+                  <p>T</p>
+                </div>
+                <div class="day">
+                  <p>W</p>
+                </div>
+                <div class="day">
+                  <p>T</p>
+                </div>
+                <div class="day">
+                  <p>F</p>
+                </div>
+                <div class="day">
+                  <p>S</p>
+                </div>
+              </div>
+              <div class="day-number">
+                <div class="days">
+                    <div class="day">
+                      <p></p>
+                    </div>
+                    <div class="day">
+                      <p>1</p>
+                    </div>
+                    <div class="day">
+                      <p>2</p>
+                    </div>
+                    <div class="day">
+                      <p>3</p>
+                    </div>
+                    <div class="day">
+                      <p>4</p>
+                    </div>
+                    <div class="day">
+                      <p>5</p>
+                    </div>
+                    <div class="day">
+                      <p>6</p>
+                    </div>
+                </div>
+
+                <div class="days">
+                  <div class="day">
+                    <p>7</p>
+                  </div>
+                  <div class="day">
+                    <p>8</p>
+                  </div>
+                  <div class="day">
+                    <p>9</p>
+                  </div>
+                  <div class="day">
+                    <p>10</p>
+                  </div>
+                  <div class="day">
+                    <p>11</p>
+                  </div>
+                  <div class="day">
+                    <p>12</p>
+                  </div>
+                  <div class="day">
+                    <p>13</p>
+                  </div>
+                </div>
+
+                <div class="days">
+                  <div class="day">
+                    <p>14</p>
+                  </div>
+                  <div class="day">
+                    <p>15</p>
+                  </div>
+                  <div class="day">
+                    <p>16</p>
+                  </div>
+                  <div class="day">
+                    <p>17</p>
+                  </div>
+                  <div class="day">
+                    <p>18</p>
+                  </div>
+                  <div class="day">
+                    <p>19</p>
+                  </div>
+                  <div class="day">
+                    <p>20</p>
+                  </div>
+                </div>
+
+                <div class="days">
+                  <div class="day">
+                    <p>21</p>
+                  </div>
+                  <div class="day">
+                    <p>22</p>
+                  </div>
+                  <div class="day">
+                    <p>23</p>
+                  </div>
+                  <div class="day">
+                    <p>24</p>
+                  </div>
+                  <div class="day">
+                    <p>25</p>
+                  </div>
+                  <div class="day">
+                    <p>26</p>
+                  </div>
+                  <div class="day">
+                    <p>27</p>
+                  </div>
+                </div>
+
+                <div class="days">
+                  <div class="day">
+                    <p>28</p>
+                  </div>
+                  <div class="day active">
+                    <p>29</p>
+                  </div>
+                  <div class="day">
+                    <p>30</p>
+                  </div>
+                  <div class="day">
+                    <p>31</p>
+                  </div>
+                  <div class="day">
+                    <p></p>
+                  </div>
+                  <div class="day">
+                    <p></p>
+                  </div>
+                  <div class="day">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="create-task-overlay" id="modal-overlay">
+    <div class="form-container">
+      <p>Add New Task</p>
+      <div class="close-modal-btn" id="close-modal-btn">
+        		<i class="iconsax" icon-name="x"></i>
+      </div>
+      <form id="form">
+        <div class="input-group">
+          <label for="name-of-task">Enter Task</label>
+          <input type="text" id="task-name" placeholder="Enter task">
+        </div>
+
+        <div class="input-group">
+          <label for="start-time">Enter Task Start Time</label>
+          <input type="time" id="task-start-time" placeholder="Enter task start time">
+        </div>
+
+        <div class="input-group">
+          <label for="end-time">Enter Task End Time</label>
+          <input type="time" id="task-end-time" placeholder="Enter task end time">
+        </div>
+
+        <div class="button-container">
+          <button type="submit" id="upload-task-btn">Add Task</button>
+        </div>
+      </form>
+
+      
+    </div>
+  </div>
+  
+  <script src="./index.js"></script>
+</body>
+</html>
